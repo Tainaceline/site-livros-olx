@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+ 
+    background-color: rgb(61, 61, 61);
+     
+        
+    
+}
+
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+     flex-flow: row wrap;
+     font-size: 1.1em;
+        background-color: rgb(18, 74, 123);
+ 
+}
+#logo{
+    background-color: white;
+    width: 15%;
+    height: 30px;
+}
+
+
+nav a{
+    color: white;
+   
+    margin: 17px;
+    flex-grow: 0;
+
+    
+}
+nav{
+    flex: auto;
+     display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+}
+label{
+    color:white;
+    font-size: 1.2em;
+}
+
+input[type="search"] {
+  padding: 7px;
+    font-size: 16px;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    outline: none;
+    background-color: rgb(221, 221, 221);
+ margin: 3px;
+    width: 453px;
+}
+#bpublicar{
+
+    background-color: rgb(255, 215, 0);
+    width: 175px;
+    height: 40px;
+    border-radius: 16px;
+    margin: 3px;
+
+}
+
+
+#parte1 > #imagem{
+  
+   width: 40%;
+    background-color: white;
+    height: 381px;
+    margin-top: 20px;
+    background-image: url("imagens/manga\ haikyuu.jpg");
+    background-size: cover;
+    
+}
+#p3 > h1{
+    font-size: 1.1em;
+    color: white;
+    font-weight: normal;
+     margin-top: 20px;
+}
+
+input[type="Text"] {
+  padding: 7px;
+    font-size: 16px;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    outline: none;
+    background-color: rgb(221, 221, 221);
+    
+    width: 40%;
+    margin-top: 5px;
+}
+ 
+
+#parte1 {
+  display: flex;
+  gap: 20px;
+
+  
+ 
+  
+
+}
+
+#parte2 {
+  
+ 
+  margin-top: 20px;
+  width: 20%;
+ 
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(83, 83, 83);
+}
+
+#parte2 > h1{
+    font-size: 1.1em;
+    color: white;
+    font-weight: normal;
+     margin-top: 20px;
+}
+#parte2 > #input2{
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    outline: none;
+    background-color: rgb(221, 221, 221);
+    margin-top: 5px;
+    width: 95%;
+}
+
+#parte2 > form{
+    margin-top: 20px;
+}
+
+#parte2 > label{
+    color:white;
+    font-size: 1.1em;
+    font-weight: normal;
+
+}

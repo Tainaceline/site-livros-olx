@@ -1,0 +1,26 @@
+@media screen and (max-width: 560px) {
+#parte1 {
+    flex-direction: column; 
+    align-items: stretch;   
+  }
+
+#parte1 > #imagem{
+
+   width: 90%;
+}
+
+#parte2 {
+  width: 90%;
+
+}
+input[type="Text"] {
+    width: 90%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+
+}

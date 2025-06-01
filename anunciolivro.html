@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina do anuncio</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="stylesheet" href="anunciolivro.css">
+      <link rel="stylesheet" href="mobilelivro.css" media="screen and (max-width:560px)">
+
+</head>
+<body>
+    <header>
+        <div id="logo">logo</div>
+           <nav>
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+               <a href="#"><i class="fas fa-chevron-right"></i></a>
+               
+           </nav>
+         
+          
+
+
+        
+    </header>
+
+    <main>
+         <form action="/buscar" method="get">
+            <label for="nomeLivro">Nome do Livro:</label>
+                <input type="search" name="q" placeholder="Informe o nome ">
+                <button id="bpublicar">Publicar</button>
+ 
+             </form>
+        
+
+             <section id="parte1">
+                <div id="imagem">
+
+                </div>
+
+                
+             <section id="parte2">
+                <h1>Preço:</h1>
+                    <input id="input2" type="text" name="dados" placeholder="Informe o preço ">
+
+                    <h1>Anunciante:</h1>
+                     <input id="input2"  type="text" name="dados" placeholder=" Informe o nome do anunciante">
+                   
+                <form>
+            <label for="categoria">Escolha a Categoria do Livro:</label><br>
+                <select id="categoria" name="categoria">
+                   <option value="">Categorias</option>
+                   <option value="aventura">- Aventura</option>
+                   <option value="fantasia">- Fantasia</option>
+                   <option value="ficcao">- Ficção Científica</option>
+                   <option value="hqs">- HQs e Novels</option>
+                   <option value="infantil">- Infantil</option>
+                   <option value="romance">- Romance</option>
+                   <option value="suspense">- Suspense</option>
+                   <option value="terror">- Terror</option>
+  </select>
+</form>
+
+           <form>
+                <p style="color: white; margin-bottom: 5px; font-size: 1.1em;">Tipo de Publicação:</p>
+  
+              <label style="color: white; font-size: 1em;">
+                 <input type="radio" name="tipo" value="livro"> Livro
+             </label><br>
+
+             <label style="color: white; font-size: 1em;">
+              <input type="radio" name="tipo" value="manhwa"> Manhwa
+               </label><br>
+
+             <label style="color: white; font-size: 1em;">
+               <input type="radio" name="tipo" value="manga"> Mangá
+               </label>
+</form>
+
+
+                
+             </section>
+
+                
+             </section>
+             <div id="p3">
+                  <h1>Informações Extras: </h1>
+                    <input type="text" name="dados" placeholder="Dados como: estado do livro, localização, autor, tipo de capa etc">
+              
+
+             </div>
+              
+       
+            
+    </main>
+    
+    
+</body>
+</html>

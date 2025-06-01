@@ -24,7 +24,7 @@ html, body {
 
 
 input[type="search"] {
-    width: 63%;
+    width: 300px;
 }
 form{
   display: flex;

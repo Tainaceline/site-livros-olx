@@ -159,3 +159,7 @@ input[type="Text"] {
     font-weight: normal;
 
 }
+
+html, body {
+  overflow-x: hidden;
+}

@@ -23,4 +23,7 @@ html, body {
 
 
 
+input[type="search"] {
+    width: 90%;
+}
 }

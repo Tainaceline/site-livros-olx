@@ -159,7 +159,14 @@ input[type="Text"] {
 html, body {
   overflow-x: hidden;
 }
-#op{
-    width: 20px;
+#categoria{
+    width: 400px;
     margin-top: 5px;
+    height: 27px;
+}
+#ff > label{
+    color:white;
+    font-size: 1.1em;
+    font-weight: normal;
+
 }

@@ -163,6 +163,7 @@ html, body {
     width: 400px;
     margin-top: 5px;
     height: 27px;
+    background-color: rgb(221, 221, 221);
 }
 #ff > label{
     color:white;

@@ -21,13 +21,18 @@ header{
     align-items: center;
     padding: 10px;
      flex-flow: row wrap;
+     height: 75px;
      font-size: 1.1em;
  
 }
 #logo{
-    background-color: white;
+   
     width: 15%;
     height: 30px;
+     background-image: url(imagens/logo6.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -55,6 +60,8 @@ header > nav > a:hover{
     
     
 }
+
+
 
 main{
     background-color: white;

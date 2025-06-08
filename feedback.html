@@ -21,14 +21,138 @@
     
      <main>
         
-        <div id="centro">
+    <div id="centro">
              <h1>Olá, como podemos te ajudar hoje?</h1>
-            <form action="/buscar" method="get">
+    
+
+            <form  action="/buscar" method="get">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icone-lupa">
+                  <circle cx="11" cy="11" r="8" />
+                 <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
                 <input type="search" name="q" placeholder="Pesquise sua dúvida">
+                
  
              </form>
-             <p>A sua experiência importa muito para nós. Conte como podemos melhorar o seu problema?       </p>
-        </div>
+      
+            
+
+             <p id="p">A sua experiência importa muito para nós. Conte como podemos melhorar o seu problema?       </p>
+    </div>
+
+        <section id="conteudo">
+
+          <div class="divun" id="conta">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             class="lucide lucide-user">
+             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+             <circle cx="12" cy="7" r="4"/>
+            </svg>
+
+            <p>Conta e perfil</p>
+          </div>
+
+          <div class="divun" id="pagamento">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-credit-card">
+               <rect width="20" height="14" x="2" y="5" rx="2"/>
+               <line x1="2" x2="22" y1="10" y2="10"/>
+             </svg>
+
+            <p>Pagamentos e Faturas</p>
+          </div>
+
+            <div class="divun" id="pedido">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-truck">
+                  <path d="M10 17h4"/>
+                  <path d="M5 17a2 2 0 1 0 4 0"/>
+                  <path d="M15 17a2 2 0 1 0 4 0"/>
+                  <path d="M3 3h11v14H3z"/>
+                 <path d="M14 8h5l3 5v4h-8V8z"/>
+            </svg>
+
+            <p>Pedidos e entregas</p>
+          </div>
+
+            <div class="divun" id="FAQ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                   <circle cx="16" cy="16" r="15"/>
+                   <path d="M12 12a4 4 0 1 1 4 4"/>
+                   <line x1="16" y1="20" x2="16" y2="22"/>
+                </svg>
+
+            <p>FAQ</p>
+          </div>
+
+            <div class="divun" id="trocas">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                 <polyline points="16 4 8 12 16 20"/>
+                <line x1="8" y1="12" x2="24" y2="12"/>
+                 </svg>
+
+            <p>Trocas e Devoluções</p>
+          </div>
+
+            <div class="divun" id="faleConosco">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-message-circle">
+                 <path d="M21 11.5a8.38 8.38 0 0 1-1.9 5.4 8.5 8.5 0 0 1-6.6 3.1 8.38 8.38 0 0 1-5.4-1.9L3 21l2.9-4.1A8.38 8.38 0 0 1 4 11.5a8.5 8.5 0 1 1 17 0z"/>
+               </svg>
+
+            <p>Fale Conosco</p>
+          </div>
+
+            <div class="divun" id="sugestões">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="lucide lucide-book">
+                 <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                  <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"/>
+            </svg>
+
+            <p>Sugestões de livros</p>
+          </div>
+
+            <div class="divun" id="Sobre ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none"
+                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                   <circle cx="16" cy="16" r="15"/>
+                   <path d="M12 12a4 4 0 1 1 4 4"/>
+                    <line x1="16" y1="20" x2="16" y2="22"/>
+                 </svg>
+
+            <p>Sobre nós</p>
+          </div>
+
+        </section>
+
+        <section id="feedback">
+     
+                <h1>Deixe o seu Feedback</h1>
+           
+            
+            <form action="/enviar-feedback" method="post">
+               
+               
+                <textarea id="mensagem1" name="mensagem" rows="4" required placeholder="Conte a sua sugestão, elogio ou problema..."></textarea><br>
+                  <div id="divbot">
+                    <button id="bpublicar" type="submit">Enviar Feedback</button>
+                  </div>
+              
+            </form>
+        </section>
+
+     
            
 
         

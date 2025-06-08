@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina do anuncio</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   
      <link rel="stylesheet" href="anunciolivro.css">
       <link rel="stylesheet" href="mobilelivro.css" media="screen and (max-width:560px)">
 
 </head>
 <body>
-    <header>
-        <div id="logo">logo</div>
-           <nav>
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-               <a href="#"><i class="fas fa-chevron-right"></i></a>
-               
-           </nav>
-         
-          
+<header>
+    <div id="logo"></div>
 
+    <div id="pp">
+      <input id="pesquisa" type="text" placeholder="busque aqui seu livro" />
+    </div>
 
-        
-    </header>
+   <nav>
+
+     <div id="perfil"></div>
+ 
+   </nav>
+   
+</header>
 
     <main>
          <form action="/buscar" method="get">
@@ -35,13 +35,20 @@
         
 
              <section id="parte1">
-                <div id="imagem">
-
-                </div>
+               <div id="imagem">
+                 <label for="fileInput" class="upload-label">
+                 <img src="https://cdn-icons-png.flaticon.com/512/1827/1827933.png" class="icone-lapis" alt="Editar">
+                 </label>
+                 <input type="file" id="fileInput" style="display: none;">
+               </div>
+           
+    
 
                 
-             <section id="parte2">
-                <h1>Preço:</h1>
+         <section id="parte2">
+            <form>
+
+                 <h1>Preço:</h1>
                     <input id="input2" type="text" name="dados" placeholder="Informe o preço ">
 
                     <h1>Anunciante:</h1>
@@ -50,10 +57,17 @@
                        <h1>Informações Extras: </h1>
                        
                     <input id="input2"  type="text" name="dados" placeholder="Dados como: estado do livro, localização, autor, tipo de capa etc">
+                
+                    <h1>Localização:</h1><br>
+                    <input id="input3"  type="text" id="localizacao" name="localizacao" placeholder="Ex: São Paulo - SP" >
+                
+            </form>
+               
+
               
                    
-                <form id="ff">
-            <label  for="categoria">Escolha a Categoria do Livro:</label><br>
+            <form id="ff">
+                <label  for="categoria">Escolha a Categoria do Livro:</label><br>
                 <select id="categoria" name="categoria">
                    <option value="">Categorias</option>
                    <option value="aventura">- Aventura</option>
@@ -64,14 +78,14 @@
                    <option value="romance">- Romance</option>
                    <option value="suspense">- Suspense</option>
                    <option value="terror">- Terror</option>
-  </select>
-</form>
+               </select>
+           </form>
 
            
-               <form id="ff">
+            <form id="ff">
                <p style="color: white; font-size: 1.1em; margin-bottom: 5px; font-weight: normal;">Tipo de Capa:</p>
 
-                <div style="display: flex; gap: 20px;">
+            <div style="display: flex; gap: 20px;">
                 <label style="color: white; font-size: 1em;">
                  <input type="radio" name="capa" value="mole"> Capa Mole
                 </label>
@@ -79,18 +93,18 @@
                  <label style="color: white; font-size: 1em;">
                  <input type="radio" name="capa" value="dura"> Capa Dura
                </label>
-</div>
-</form>
+         </div>
+        </form>
 
 
 
 
-
+                           
                 
              
       
               
-       
+       </section>
             
     </main>
     

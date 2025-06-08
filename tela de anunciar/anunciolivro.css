@@ -15,43 +15,70 @@ body{
     
 }
 
-header{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-     flex-flow: row wrap;
-     font-size: 1.1em;
-        background-color: rgb(18, 74, 123);
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(18, 74, 123);
+  padding: 10px 20px;
+  color: white;
+   height: 77px; 
+}
+
+#logo {
+     width: 147px;
+    height: 156px;
+  background-image: url(imagens/logo6.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+    
+}
+
+#pesquisa {
  
-}
-#logo{
-    background-color: white;
-    width: 15%;
-    height: 30px;
+ width: 545px;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #D9D9D9;
+  font-size: 14px;
+  color: #3d3d3d;
 }
 
 
-nav a{
-    color: white;
-   
-    margin: 17px;
-    flex-grow: 0;
+#pp {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
 
-    
+
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-nav{
-    flex: auto;
-     display: flex;
-    flex-flow: row wrap;
-    justify-content: end;
-    
+
+#perfil {
+    width: 71px;
+    height: 67px;
+  background-image: url(imagens/fotoperfil.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
 }
+
+
+
+
 
 main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+   
     padding: 10px;
     margin: 15px;
 }
@@ -109,6 +136,8 @@ input[type="Text"] {
 #parte1 {
   display: flex;
   justify-content: center;
+
+
   gap: 20px;
 
   
@@ -128,13 +157,13 @@ input[type="Text"] {
   background-color: rgb(83, 83, 83);
 }
 
-#parte2 > h1{
+#parte2 > form > h1{
     font-size: 1.1em;
     color: white;
     font-weight: normal;
      margin-top: 20px;
 }
-#parte2 > #input2{
+#parte2 > form > #input2{
     padding: 7px;
     font-size: 16px;
     border: 2px solid rgb(221, 221, 221);
@@ -142,6 +171,17 @@ input[type="Text"] {
     outline: none;
     background-color: rgb(221, 221, 221);
     margin-top: 5px;
+    width: 95%;
+}
+
+#parte2 > form > #input3{
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    outline: none;
+    background-color: rgb(221, 221, 221);
+    margin-top: -9px;
     width: 95%;
 }
 
@@ -170,4 +210,30 @@ html, body {
     font-size: 1.1em;
     font-weight: normal;
 
+}
+
+#imagem {
+  position: relative;
+  overflow: hidden;
+}
+
+.upload-label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 30%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.upload-label:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.icone-lapis {
+  width: 24px;
+  height: 24px;
 }

@@ -6,34 +6,37 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(18, 74, 123);
+    width: 100%;
+  height: auto;
+ 
+    background-color: rgb(61, 61, 61);
      
         
     
 }
 
-header{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-     flex-flow: row wrap;
-     height: 75px;
-     font-size: 1.1em;
- 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(18, 74, 123);
+  padding: 10px 20px;
+  color: white;
+   height: 77px; 
 }
-#logo{
-   
-    width: 15%;
-    height: 30px;
-     background-image: url(imagens/logo6.png);
+
+#logo {
+     width: 147px;
+    height: 156px;
+  background-image: url(imagens/logo6.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+    
 }
+
+
+
 
 
 nav a{
@@ -63,20 +66,19 @@ header > nav > a:hover{
 
 
 
-main{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+main {
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 20px;
+  padding: 20px; 
+}
 
-   
-    width: 36%;
-    height: 76%;
-    border-radius: 20px;}
 
 #centro > h1{
     font-size: 25px;
@@ -97,11 +99,98 @@ input[type="search"] {
   outline: none;
   background-color: rgb(221, 221, 221);
   text-align: center;
-  width: 496px;
+  width: 645px;
+
 }
 
-#centro > p{
+
+
+
+ .icone-lupa {
+      position: absolute;
+        left: 445px;
+    top: 209px;
+    width: 51px;
+    height: 63px;
+    color: #000000
+}
+
+
+#p{
     font-size: 15px;
     padding: 18px;
+    margin-top: 10px;
+}
+
+#conteudo{
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
+  max-width: 400px;
+  margin: auto;
+}
+
+.divun {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  transition:  0.2s ease;
+}
+
+.divun:hover {
+  background-color: #f0f0f0;
+}
+
+.divun svg {
+  flex-shrink: 0;
+  color: #333;
+}
+
+.divun p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+#feedback{
+  display: flex;
+  flex-direction: column;
+     text-align: left;
+}
+#feedback > h1{
+
+    font-size: 1.5em;
+    text-align: left;
+    margin-top: 10px;
+}
+#bpublicar{
+
+    background-color: rgb(255, 215, 0);
+    width: 175px;
+    height: 40px;
+    border-radius: 16px;
+    margin: 3px;
+
+}
+
+#mensagem1{
+      background-color: rgb(221, 221, 221);
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 10px;
+    width: 600px;
+    height: 60px;
+    resize: none;
+}
+
+#divbot{
+  display: flex;
+ justify-content: end;
 }
 

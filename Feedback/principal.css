@@ -28,7 +28,7 @@ header {
 #logo {
      width: 147px;
     height: 156px;
-  background-image: url(imagens/logo6.png);
+  background-image: url(../imagens/logo6.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

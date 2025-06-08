@@ -194,3 +194,13 @@ input[type="search"] {
  justify-content: end;
 }
 
+
+
+#menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

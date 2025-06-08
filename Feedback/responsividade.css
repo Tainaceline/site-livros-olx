@@ -1,0 +1,74 @@
+@media screen and (max-width: 565px) {
+#centro > h1{
+    font-size: 24px;
+    padding: 18px;
+}
+
+#p{
+    font-size: 15px;
+    padding: 18px;
+    margin-top: 10px;
+   
+}
+
+input[type="search"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 8px;
+  outline: none;
+  background-color: rgb(221, 221, 221);
+  text-align: center;
+  width: 345px;
+
+
+
+}
+
+.icone-lupa {
+left: 109px;
+top: 238px;
+}
+
+
+
+
+#mensagem1{
+     
+    width: 356px;
+   
+}
+
+  #menu-toggle {
+    display: block; 
+  }
+
+#menu {
+    display: none; 
+    flex-direction: column;
+    background-color: rgb(18, 74, 123);
+    position: absolute;
+    top: 77px;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 100;
+  }
+
+   #menu.ativo {
+    display: flex;
+  }
+
+  #menu-toggle {
+    display: block;
+    font-size: 28px;
+   
+    border: none;
+    color: white;
+    
+  }
+
+
+}
+
+

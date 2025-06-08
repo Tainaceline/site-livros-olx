@@ -31,4 +31,10 @@ form{
    flex-direction: column; 
     align-items: stretch;
 }
+#pesquisa {
+ 
+ width: 250px;
+  height: 40px;
+  
+}
 }
